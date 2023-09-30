@@ -6,8 +6,8 @@ const resume = () => {
   return (
     <div id='resume' className=' bg-orange-50'>
         <div>
-            <h1 className=" ml-12 text-3xl mt-4'">Resume</h1> <hr className=' ml-12 mt-2 mr-12'></hr> <br/>
-            <a href='https://drive.google.com/file/d/1XrNUxT64RAtpNW4wqDVGmMJk0TYVgAZP/view?usp=sharing' className=' ml-24' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faFile} color="#271f51" size='2xl'/>  <span className=' pl-4'>Download . . .</span>    </a>
+            <h1 className=" ml-12 text-3xl mt-4 sm:ml-8">Resume</h1> <hr className=' ml-12 mt-2 mr-12'></hr> <br/>
+            <a href='https://drive.google.com/file/d/1hJdZWa9r7luIcdLPv2HIoU-FgZQlGFXW/view?usp=sharing' className=' ml-24' target='_blank' rel='noreferrer'><FontAwesomeIcon icon={faFile} color="#271f51" size='2xl'/>  <span className=' pl-4'>Download . . .</span>    </a>
             
         </div>
         <div className=' lg:visible'>

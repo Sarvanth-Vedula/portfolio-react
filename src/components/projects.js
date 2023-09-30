@@ -5,7 +5,7 @@ const projects = () => {
     <div id='project' className=' bg-orange-50'> 
         <h1 className=' ml-12 text-3xl mt-4'>Projects</h1> <hr className=' ml-12 mt-2 mr-12'></hr>
         <div className=' flex flex-col md:flex-row pt-6'>
-            <div className=' max-w-sm border-2 shadow-xl lg:ml-10 bg-stone-200'>
+            <div className=' max-w-sm border-2 shadow-2xl lg:ml-10 bg-stone-200'>
                 <ol className=' m-4'>
                     <li className=' m-4'>
                         <span className="font-medium">Assiduous Study of the Hyper-parameters' Influence on CNN using COVID-19 CT Images</span> <br/> 08/2022 - 09/2022 <br/>
@@ -17,9 +17,9 @@ const projects = () => {
                         </ol>
                     </li> <br/> 
                 </ol>
-            </div>
+            </div> <br/>
 
-            <div className=' max-w-sm border-2 shadow-xl lg:ml-10 bg-stone-200'>
+            <div className=' max-w-sm border-2 shadow-2xl lg:ml-10 bg-stone-200'>
                 <ol className=' pt-8'>
                     <li class="ml-8">
                         <span class="font-medium">Created a full stack blog website</span> <br/> 09/2022 - 10/2022 <br/> 
@@ -30,9 +30,9 @@ const projects = () => {
                         </ol>
                     </li>
                 </ol> 
-            </div>
+            </div> <br/>
 
-            <div className=' max-w-sm border-2 shadow-xl lg:ml-10 bg-stone-200'>
+            <div className=' max-w-sm border-2 shadow-2xl lg:ml-10 bg-stone-200'>
                 <ol className=' m-4'>
                     <li class=" m-4">
                         <span class="font-medium">A Study on Pragmatic Performance and Analysis of CNN and QNN Algorithms on Various Computing Machines using COVID-19 Images</span> <br/> 02/2023 - 04/2023 <br/> 
@@ -43,7 +43,7 @@ const projects = () => {
                         </ol>
                     </li>
                 </ol>
-            </div>
+            </div>  <br/>
         </div>
     </div>
   )

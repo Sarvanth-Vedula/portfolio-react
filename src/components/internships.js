@@ -4,7 +4,7 @@ const internships = () => {
   return (
     <div id='intern'>
         <h1 className=' ml-12 text-3xl mt-4 pt-2 '>Internships</h1> <hr className=' ml-12 mt-2 mr-12'></hr>
-        <div className="flex flex-row pt-6">
+        <div className=" lg:flex flex-row pt-6">
             <div>
                 <ol>
                     <li className="ml-12">

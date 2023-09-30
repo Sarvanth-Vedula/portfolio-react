@@ -4,7 +4,7 @@ const education = () => {
   return (
     <div id='edu'>
         <div>
-            <h1 className=' lg:ml-12 text-3xl mt-4'>Education</h1> <hr className=' ml-12 mt-2 mr-12'></hr>
+            <h1 className=' lg:ml-12 text-3xl mt-4 '>Education</h1> <hr className=' ml-12 mt-2 mr-12'></hr>
             <div>
                 <ol className="list-disc ml-6 mt-2">
                     <li className="lg:ml-12">
@@ -17,7 +17,7 @@ const education = () => {
                     </li>
                 </ol>
             </div>
-        </div>
+        </div> 
 
     </div>
   )

@@ -5,14 +5,14 @@ import  Typewriter from "typewriter-effect";
 const about = () => {
   return (
     <div id='aboutID' className=' bg-stone-200'>
-        <div className=' text-center mt-2'>
-            <h1 className=' font-mono text-5xl mt-4'>Sai Sarvanth Vedula</h1> 
-            <h1 className=" font-mono text-3xl">Software Developer</h1>
+        <div className=' lg:text-center mt-2'>
+            <h1 className=' font-mono text-5xl mt-4 sm:ml-4'>Sai Sarvanth Vedula</h1> 
+            <h1 className=" font-mono text-3xl sm:ml-2">Software Developer</h1>
         </div> <div>
         <h1 className=' ml-12 text-3xl mt-4'>About</h1> <hr className=' ml-12 mt-2 mr-12'></hr>
         <div>
             <p className=' mx-12 mb-10 mt-6'>
-                I am a <strong>meticulous</strong>and enthusiastic individual who consistently believes in the power of self.  
+                I am a <strong>meticulous</strong> and enthusiastic individual who consistently believes in the power of self.  
                 Whether it's tackling complex challenges or bringing creative ideas to life, I approach each task with enthusiasm and a strong belief in my abilities. I am a <strong>programmer</strong> with extensive coding knowledge. 
             </p>
         </div>
@@ -28,7 +28,7 @@ const about = () => {
             </ul>
         </div>
         <div className=' flex'>
-            <div> <img src={img1} height={10} width={150} className=' mr-10 rounded-3xl' alt='sarvanthImage'></img> </div>
+            <div> <img src={img1} height={5} width={150} className=' mr-10 rounded-full' alt='sarvanthImage'></img> </div>
             <div className=' mt-14 leading-10'>
             <Typewriter
             onInit={(typewriter) => {
